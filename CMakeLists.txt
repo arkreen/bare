@@ -69,12 +69,6 @@ if(NOT TARGET v8)
     NO_CMAKE_FIND_ROOT_PATH
   )
 
-  if(v8)
-    message(STATUS "Found v8 library at ${v8}, ${PROJECT_SOURCE_DIR}/prebuilds/${target}")
-  else()
-    message(FATAL_ERROR "Could not find v8 library")
-  endif
-
   set_target_properties(
     v8
     PROPERTIES
