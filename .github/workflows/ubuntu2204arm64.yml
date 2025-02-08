@@ -1,4 +1,4 @@
-name: PrebuildLinux
+name: ubuntu2204arm64
 on:
   workflow_dispatch:
 jobs:
